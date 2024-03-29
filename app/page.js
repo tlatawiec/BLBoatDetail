@@ -1,9 +1,10 @@
-import Image from "next/image";
-
+import Services from "./components/services"
+import BGIMG from "./components/bgimg"
 export default function Home() {
   return (
-    <main>
-      Home
+    <main className="min-h-full">
+      <BGIMG />
+      <Services />
     </main>
   );
 }

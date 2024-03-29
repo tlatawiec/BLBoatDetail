@@ -1,8 +1,8 @@
-import { Rubik } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import  Navbar  from "./components/Navbar"
 import "./globals.css";
 
-const rubik = Rubik({ subsets: ["latin"] });
+const dmsans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Brighton Boat Detail | Your Premier Boat Detailing Service in Barrington",
@@ -12,10 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={rubik.className}>
+      <body className={dmsans.className}>
         <div>
-          <h1 className="text-center mt-10 mb-0 text-2xl">Brighton's Boat Detail</h1>
-
           <Navbar />
         </div>
 

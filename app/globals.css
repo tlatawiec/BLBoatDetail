@@ -11,7 +11,7 @@ h1, h2 {
 }
 
 main {
-  @apply max-w-6xl my-12 mx-auto px-8;
+  @apply my-12 mx-auto px-0;
 }
 
 main > h2 {
@@ -24,9 +24,10 @@ p > a {
 
 nav {
   @apply 
-    pb-4 border-b-2 
+    py-8 border-b-2
     flex items-center 
-    gap-5 mt-5 mb-10
+    gap-5 mt-5 mb-0
+    text-lg
     mx-auto max-w-6xl;
 }
 
@@ -36,4 +37,24 @@ nav a, nav span {
 
 nav a:hover {
   @apply text-gray;
+}
+
+.reverseColorButton {
+  @apply  
+    text-light bg-blue 
+    py-0.5 px-2
+    ml-auto
+    rounded-md; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */
+  border: 2px solid transparent; /* Add initial border */
+}
+
+.reverseColorButton:hover {
+  @apply  
+    text-blue bg-light
+    border-blue; /* Add blue border on hover */
+}
+
+.container {
+  @apply flex w-2/4 bg-gray;
 }

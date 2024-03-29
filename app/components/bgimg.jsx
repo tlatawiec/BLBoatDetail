@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import bgIMG from './megatron.jpg'
+import bgIMG from '../images/megatron.jpg'
 export default function BGIMG() {
 
   return (
@@ -13,6 +13,7 @@ export default function BGIMG() {
           objectPosition='center'
         />
       </div>
+
       <div className="absolute top-0 left-0 w-full flex items-center justify-center mt-20">
         <h1 className="text-white text-4xl font-thin italic">Bringing Out the Best in Your Boat's Appearance</h1>
       </div>

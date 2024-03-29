@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-light text-blue;
+  @apply bg-light text-black;
 }
 
 h1, h2 {
-  @apply font-bold text-blue text-lg;
+  @apply font-bold text-black text-lg;
 }
 
 main {
@@ -32,7 +32,7 @@ nav {
 }
 
 nav a, nav span {
-  @apply text-blue;
+  @apply text-black;
 }
 
 nav a:hover {
@@ -41,7 +41,7 @@ nav a:hover {
 
 .reverseColorButton {
   @apply  
-    text-light bg-blue 
+    text-light bg-black 
     py-0.5 px-2
     ml-auto
     rounded-md; /* Rounded corners */
@@ -51,8 +51,8 @@ nav a:hover {
 
 .reverseColorButton:hover {
   @apply  
-    text-blue bg-light
-    border-blue; /* Add blue border on hover */
+    text-black bg-light
+    border-black; /* Add blue border on hover */
 }
 
 .container {

@@ -6,7 +6,7 @@ body {
   @apply bg-light text-black;
 }
 
-h1, h2 {
+h1, h2, h3 {
   @apply font-bold text-black text-lg;
 }
 
@@ -14,7 +14,7 @@ main {
   @apply my-12 mx-auto px-0;
 }
 
-main > h2 {
+main > h2, h3 {
   @apply mb-4 pb-2 text-base;
 }
 
@@ -42,7 +42,7 @@ nav a:hover {
 .reverseColorButton {
   @apply  
     text-light bg-black 
-    py-0.5 px-2
+    py-2 px-4
     ml-auto
     rounded-md; /* Rounded corners */
   transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */

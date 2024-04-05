@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import bgIMG from '../images/megatron.jpg'
+import bgIMG from '../../public/megatron.jpg'
 export default function BGIMG() {
 
   return (
@@ -8,9 +8,7 @@ export default function BGIMG() {
         <Image
           src={bgIMG}
           alt="Picture of detailed boat"      
-          fit = 'fill'
-          objectFit='cover'
-          objectPosition='center'
+          fit ='cover'
         />
       </div>
 

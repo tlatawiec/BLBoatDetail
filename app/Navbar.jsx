@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="my-0">
-      <Link href="/">
+      <Link href="/" className="hover:text-blue">
         <div className="flex flex-col items-center">
           <Image
             src={slogo}
@@ -18,8 +18,9 @@ export default function Navbar() {
           <p>Brighton's Marine Service</p>
         </div>
       </Link>
-      <Link href="/quote" className="self-end">Get a Quote</Link>
-      <Link href="/meettheowner" className="self-end">Meet the Owner</Link>
+      <Link href="/quote" className="self-end hover:text-blue">Get a Quote</Link>
+      <Link href="/meettheowner" className="self-end hover:text-blue">Meet the Owner</Link>
+      <Link href="/gallery" className="self-end hover:text-blue">Gallery</Link>"
       <ContactUs />
     </nav>
   )

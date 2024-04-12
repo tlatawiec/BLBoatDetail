@@ -2,6 +2,7 @@ export default function ServiceAgreement() {
 
   return (
     <main className="text-center w-2/3 border border-black py-4 px-8">
+      <title>Service Agreement</title>
       <h1 className="my-4">
         Brighton Marine Services LLC SERVICE AGREEMENT
       </h1>

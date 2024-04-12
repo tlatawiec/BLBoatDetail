@@ -91,3 +91,10 @@ input {
     90%,
     100% {transform:scale(var(--s,1)) translate(10px,-10px) rotate(-90deg)}
 }
+
+li {
+  @apply  
+    my-2
+   text-center text-2xl text-white
+   
+}

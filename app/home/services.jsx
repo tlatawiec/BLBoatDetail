@@ -7,8 +7,8 @@ export default function Services() {
 
   return (
     // overall container
-    <div className="mx-auto flex flex-wrap w-7/6 justify-center">
-      <div className="w-5/12 p-4 flex flex-col relative shadow-xl rounded-lg mx-4 my-8">
+    <div className="mx-auto flex flex-wrap w-7/6 justify-center py-8">
+      <div className="w-5/6 sm:w-5/12 p-4 flex flex-col relative shadow-xl rounded-lg mx-4 my-8">
 
         <Banner img={b1} title="Exterior Detailing" />
 
@@ -19,7 +19,7 @@ export default function Services() {
 
       </div>
 
-      <div className="w-5/12 p-4 flex flex-col relative bg-light rounded-lg shadow-xl rounded-lg mx-4 my-8">
+      <div className=" w-5/6 sm:w-5/12 p-4 flex flex-col relative bg-light rounded-lg shadow-xl mx-4 my-8">
 
         <Banner img={b1} title="Interior Detailing" />
 

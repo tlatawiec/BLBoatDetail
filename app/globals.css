@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-light text-black;
+  @apply bg-light text-black overflow-x-hidden;
 }
 
 h1, h2, h3 {
@@ -12,6 +12,7 @@ h1, h2, h3 {
 
 main {
   @apply my-12 mx-auto px-0;
+  ;
 }
 
 main > h2, h3 {
@@ -24,11 +25,11 @@ p > a {
 
 nav {
   @apply 
-    py-8 border-b-2
-    flex items-center 
-    gap-5 mt-5 mb-0
-    text-lg
-    mx-auto max-w-6xl;
+    py-4 border-b-2
+    flex items-center mx-auto
+    text-xs max-w-6xl min-w-min
+    my-0 sm:py-8 sm:text-base
+    gap-5 
 }
 
 nav a, nav span {
@@ -45,9 +46,11 @@ input {
 
 .reverseColorButton {
   @apply  
+    my-auto sm:my-0
     text-light bg-black 
-    py-2 px-4
-    ml-auto
+    py-1 px-2 text-xs
+    sm:py-2 sm:px-4 sm:text-base
+    ml-auto mr-4
     rounded-md; /* Rounded corners */
   transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */
   border: 2px solid transparent; /* Add initial border */
@@ -59,11 +62,43 @@ input {
     border-black; /* Add blue border on hover */
 }
 
+.formInput {
+  @apply
+    text-xs sm:text-base;
+}
+
+.submitButton {
+  @apply  
+    mx-auto
+    text-light bg-black 
+    py-1 px-2 text-xs
+    sm:py-2 sm:px-4 sm:text-base
+    rounded-md; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */
+  border: 2px solid transparent; /* Add initial border */
+}
+
+.submitButton:hover {
+  @apply  
+    text-black bg-light
+    border-black; /* Add blue border on hover */
+}
+
 .container {
   @apply flex w-2/4 bg-gray;
 }
 
+.nav-link {
+  @apply  
+    my-auto sm:my-0
+    self-end hover:text-blue;
+}
 
+.baaPicture {
+  @apply
+    w-full px-10 my-5 
+    sm:w-5/12  relative;
+}
 
 
 .loader {
@@ -90,11 +125,4 @@ input {
     66%  {transform:scale(var(--s,1)) translate(10px,-20px) rotate(-90deg)}
     90%,
     100% {transform:scale(var(--s,1)) translate(10px,-10px) rotate(-90deg)}
-}
-
-li {
-  @apply  
-    my-2
-   text-center text-2xl text-white
-   
 }

@@ -18,11 +18,12 @@ export default function Gallery() {
       <title>Gallery</title>
       <h1 className="text-center text-5xl">GALLERY</h1>
       <p className="text-center mt-8">Here&apos;s a few examples of our past work:</p>
-      <div className="w-5/6 flex flex-row mx-auto text-center justify-center my-12">
-        <h2 className="w-5/12 text-3xl font-normal">Before</h2>
-        <h2 className="w-5/12 text-3xl font-normal">After</h2>
+      <div className="w-5/6 flex flex-wrap mx-auto text-center justify-center my-12">
+        <h2 className="w-full sm:w-1/3 text-3xl font-normal">Before</h2>
+        <h2 className="w-full sm:w-1/3 text-3xl font-normal">&</h2>
+        <h2 className="w-full sm:w-1/3 text-3xl font-normal">After</h2>
       </div>
-      <div className='shadow-2xl w-5/6 mx-auto'>
+      <div className='shadow-2xl w-5/6 mx-auto py-0 sm:py-24'>
         <BeforeAfter before={bd1} after={bd11} /> 
         <BeforeAfter before={bd2} after={bd22} /> 
         <BeforeAfter before={bd3} after={bd33} /> 

@@ -9,7 +9,7 @@ export default function Banner({ img, title }) {
           alt="Banner picture showing a detailed boat"
           fit='cover'
         />
-        <h2 className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-extrabold text-3xl mx-auto">{title}</h2>
+        <h2 className="text-xl text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-extrabold sm:text-3xl mx-auto">{title}</h2>
       </div>
     </div>
   );

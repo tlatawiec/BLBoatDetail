@@ -38,8 +38,8 @@ export default function Form() {
   }
   if (!isLoading) {
     return (
-      <form className="w-1/2 flex flex-wrap mx-auto justify-between" onSubmit={formSubmit}>
-        <input className="w-full"
+      <form className="w-5/6 sm:w-1/2 flex flex-wrap mx-auto justify-between" onSubmit={formSubmit}>
+        <input className="formInput w-full"
           name="email"
           type="email"
           placeholder="Email"
@@ -47,7 +47,7 @@ export default function Form() {
           required
         />
         <div className="w-full flex flex-row">
-          <input className="w-1/2 mr-1"
+          <input className="formInput w-1/2 mr-1"
             name="first_name"
             type="text"
             placeholder="First Name"
@@ -55,7 +55,7 @@ export default function Form() {
             required
           />
 
-          <input className="w-1/2 ml-1"
+          <input className="formInput w-1/2 ml-1"
             name="last_name"
             type="text"
             placeholder="Last Name"
@@ -66,7 +66,7 @@ export default function Form() {
         </div>
 
         <div className="w-full flex flex-row mb-4">
-          <input className="w-1/3"
+          <input className="formInput w-1/3 mr-2"
             name="make"
             type="text"
             placeholder="Boat Make"
@@ -74,15 +74,15 @@ export default function Form() {
             required
           />
 
-          <input className="w-1/3 mx-2"
+          <input className="formInput w-1/3 mr-2"
             name="model"
             type="text"
-            placeholder="Boat Model *"
+            placeholder="Boat Model"
             autoComplete="on"
             required
           />
 
-          <input className="w-1/3"
+          <input className="formInput w-1/3"
             name="length"
             type="text"
             placeholder="Length (ft)"
@@ -90,7 +90,7 @@ export default function Form() {
           />
         </div>
 
-        <button type="submit" className="reverseColorButton mx-auto">Submit</button>
+        <button type="submit" className="submitButton">Submit</button>
       </form>
     )
   }

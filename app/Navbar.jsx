@@ -13,7 +13,7 @@ export default function Navbar() {
           height={50}
           width={50} // Update the width as needed
         />
-        <p className="opacity-1 text-xs hidden px-2 sm:flex sm:text-base">Brighton's Marine Service</p>
+        <p className="opacity-1 text-xs hidden px-2 sm:flex sm:text-base">Brighton&apos;s Marine Service</p>
       </Link>
       <Link href="/quote" className="nav-link">Quote</Link>
       <Link href="/gallery" className="nav-link">Gallery</Link>

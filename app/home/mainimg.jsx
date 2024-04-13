@@ -13,7 +13,7 @@ export default function BGIMG() {
       </div>
 
       <div className="absolute top-0 left-0 w-full flex items-center justify-center mt-20">
-        <h1 className="text-white text-4xl font-thin italic">Bringing Out the Best in Your Boat's Appearance</h1>
+        <h1 className="text-white text-4xl font-thin italic">Bringing Out the Best in Your Boat&apos;s Appearance</h1>
       </div>
 
       <div className="absolute bottom-0 left-0 w-full flex items-center justify-center mb-20 ">

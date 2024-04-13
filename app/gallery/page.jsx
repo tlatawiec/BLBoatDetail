@@ -17,7 +17,7 @@ export default function Gallery() {
     <main className='h-full'>
       <title>Gallery</title>
       <h1 className="text-center text-5xl">GALLERY</h1>
-      <p className="text-center mt-8">Here's a few examples of our past work:</p>
+      <p className="text-center mt-8">Here&apos;s a few examples of our past work:</p>
       <div className="w-5/6 flex flex-row mx-auto text-center justify-center my-12">
         <h2 className="w-5/12 text-3xl font-normal">Before</h2>
         <h2 className="w-5/12 text-3xl font-normal">After</h2>

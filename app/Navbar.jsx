@@ -15,12 +15,12 @@ export default function Navbar() {
             height={50}
             width = "true"
           />
-          <p>Brighton's Marine Service</p>
+          <p>Brighton&apos;s Marine Service</p>
         </div>
       </Link>
-      <Link href="/quote" className="self-end hover:text-blue">Get a Quote</Link>
+      <Link href='/quote' className="self-end hover:text-blue">Get a Quote</Link>
       <Link href="/meettheowner" className="self-end hover:text-blue">Meet the Owner</Link>
-      <Link href="/gallery" className="self-end hover:text-blue">Gallery</Link>"
+      <Link href="/gallery" className="self-end hover:text-blue">Gallery</Link>
       <ContactUs />
     </nav>
   )

@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import ContactUs from './home/contactus'
 import Image from 'next/image'
+
+import fblogo from '../public/facebook.png'
 import slogo from '../public/slogo.png'// Assuming you have a ContactUs component
 
 export default function Navbar() {
@@ -18,7 +20,19 @@ export default function Navbar() {
       <Link href="/quote" className="nav-link">Quote</Link>
       <Link href="/gallery" className="nav-link">Gallery</Link>
       <Link href="/meettheowner" className="nav-link">Our Owner</Link>
+
+
+      <a className="nav-link self-end" href="https://www.facebook.com/brighton.marine.services">
+        <Image
+          src = { fblogo }
+          alt="Link to Facebook page"
+          height= {25}
+          width = {25}
+        />
+      </a>
       <ContactUs />
+
+
     </nav>
   );
 }

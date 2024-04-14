@@ -65,7 +65,7 @@ export default function Form() {
 
         </div>
 
-        <div className="w-full flex flex-row mb-4">
+        <div className="w-full flex flex-row">
           <input className="formInput w-1/3 mr-2"
             name="make"
             type="text"
@@ -88,7 +88,17 @@ export default function Form() {
             placeholder="Length (ft)"
             autoComplete="on"
           />
+
+
         </div>
+        <div className="w-full mb-4">
+          <input className="formInput w-full pb-16"
+              name = "message"
+              type = "text"
+              placeholder = "Extra Notes (optional)"
+            />
+        </div>
+
 
         <button type="submit" className="submitButton">Submit</button>
       </form>

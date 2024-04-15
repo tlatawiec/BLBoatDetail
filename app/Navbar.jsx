@@ -25,7 +25,7 @@ export default function Navbar() {
       <a className="nav-link self-end" href="https://www.facebook.com/brighton.marine.services">
         <Image
           src = { fblogo }
-          alt="Link to Facebook page"
+          alt="Link to business Facebook page"
           height= {25}
           width = {25}
         />

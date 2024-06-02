@@ -46,6 +46,14 @@ export default function Form() {
 
           required
         />
+
+        <input className="formInput w-full"
+          name="phone"
+          type="phone"
+          placeholder="Phone Number"
+
+          required
+        />
         <div className="w-full flex flex-row">
           <input className="formInput w-1/2 mr-1"
             name="first_name"

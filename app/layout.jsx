@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/public/favicon.ico" sizes="any" />
+
       </head>
 
       <body className={dmsans.className}>

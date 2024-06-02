@@ -25,7 +25,7 @@ export default function Form() {
         mode: 'no-cors',
         body: jsonString // Convert formData to JSON object
       });
-
+      
       // Handle response if necessary
       const data = await response.json();
       // ...
